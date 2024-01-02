@@ -34,9 +34,9 @@ h1,h2,h3,h4 {
 }
 
 .general-sub {
-    font-family: "Exo",sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
-    color:#fafafa
+    color:#fafafa;
 }
 
 
@@ -79,7 +79,7 @@ header {
 }
 
 .list-inline-item:not(:last-child) {
-    margin:0;
+    margin: 0;
 }
 
 .menucontainer {
@@ -88,11 +88,11 @@ header {
 
 #nav li {
     font-size: 14px;
-    padding:0;
+    padding: 0;
 }
 
 .menuitem {
-    height:120px;
+    height: 120px;
     text-align: center;
     padding: 0;
 }
@@ -101,7 +101,7 @@ header {
     width: 100%;
     text-decoration: none;
     color:#fff;
-    height:120px;
+    height: 120px;
 }
 
 .menuitem a i {
@@ -125,7 +125,7 @@ header {
 /* Hover.css */
 
 .hvr-sweep-to-bottom:before {
-    background:rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
@@ -133,7 +133,50 @@ header {
 
 footer {
     background-color: #525252;
-    color:#fafafa;
+    color: #fafafa;
     min-height: 120px;
-    margin:0;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
